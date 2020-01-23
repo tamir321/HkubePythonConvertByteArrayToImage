@@ -52,7 +52,7 @@ def start(args, hkubeapi):
      imgByteArr = io.BytesIO()
      image.save(imgByteArr, format=image.format)
      result = imgByteArr.getvalue()
-     W = input['image.size'][0]+1
+     W = input['image.size'][0]
      L = input['image.size'][1]
      if  (W,L) != image.size:
            raise MyCustomError("not the same size")
