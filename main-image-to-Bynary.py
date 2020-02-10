@@ -13,7 +13,7 @@ def start(args, hkubeapi):
   
      time.sleep(2)
      return  {"name":"python test",
-              "version":"v2",
+              "version":"v3-branch1",
               "image.format":image.format,
               "image.mode":image.mode,
               "image.size":image.size,              
