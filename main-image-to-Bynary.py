@@ -3,7 +3,7 @@ import json
 import io
 from PIL import Image
 def start(args, hkubeapi):
-     image = Image.open('algorithm/Sydney-Opera-House.jpg')
+     image = Image.open('Sydney-Opera-House.jpg')
      print(image.format)
      print(image.mode)
      print(image.size)
