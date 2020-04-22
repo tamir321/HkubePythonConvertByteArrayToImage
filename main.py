@@ -60,10 +60,11 @@ def start(args, hkubeapi):
      
      time.sleep(1)
      return  {"name":"convert byte array to image",
-              "version":"v3-2",
+              "version":"v3-2-webhook",
               "image.format":image.format,
               "image.mode":image.mode,
               "image.size":image.size,              
               "image":bytearray(result)
+             
               }
      
