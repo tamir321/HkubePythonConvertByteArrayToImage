@@ -11,9 +11,9 @@ def start(args, hkubeapi):
      image.save(imgByteArr, format=image.format)
      result = imgByteArr.getvalue()
   
-     time.sleep(2)
+     time.sleep(3)
      return  {"name":"python test",
-              "version":"v2",
+              "version":"v3",
               "image.format":image.format,
               "image.mode":image.mode,
               "image.size":image.size,              
