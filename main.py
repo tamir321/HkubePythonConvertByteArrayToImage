@@ -58,7 +58,7 @@ def start(args, hkubeapi):
            raise MyCustomError("not the same size")
           #raise sizeDontMatch
      
-     time.sleep(1)
+     time.sleep(2)
      return  {"name":"convert byte array to image",
               "version":"v3-2-webhook",
               "image.format":image.format,
